@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+  <div class="container-fluid bg-primary " style="height:100vh" >
+    <div class="row justify-content-center pt-5">
+      <div class="col-md-8 col-sm-10 col-11">
+        <div class="card " >
+          <form class="px-4 py-4">
+            <h3 class="mb-2">Sign Up</h3>
+            <p class="text-muted mb-4">Please fill in this form to create an account!</p>
+
+            <div class=" row ">
+              <div class="col-sm-6">
+                <div class="form-group">
+                <input type="text" class="form-control bg-light border-0  rounded" placeholder="First Name" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                <input type="text" class="form-control bg-light border-0  rounded" placeholder="Last Name" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="email" class="form-control bg-light border-0 rounded" placeholder="Email" />
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="password" class="form-control bg-light border-0 rounded" placeholder="Password" />
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="password" class="form-control bg-light border-0  rounded" placeholder="Confirm Password" />
+            </div>
+
+            <div class="form-check mb-4">
+              <input type="checkbox" class="form-check-input" id="terms" />
+              <label class="form-check-label" for="terms">
+                I accept the <span class="text-primary">Terms of Use & Privacy Policy.</span>
+              </label>
+            </div>
+
+            <button class="btn btn-primary px-5 py-2">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="text-white text-center">
+      Already have an account?
+      <a href="#" class="text-white font-weight-bold">Login here</a>
+    </p>
+    
+  </div>
+</body>
+</html>
